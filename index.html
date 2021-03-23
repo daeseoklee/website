@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> Daeseok Lee's homepage </title>
+
+<script src="script/jquery-1.11.3.js"></script>
+
+<script src="script/jquery.innerfade.js"></script>
+
+<script>
+
+    // 페이드인아웃 -플러그인 
+
+    $(function(){
+
+        $('.inner-fade').innerfade ({
+
+            animationtype:'fade',
+
+            timeout:2000
+
+        });
+
+    });
+
+</script>
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+  <!-- #wrap>header+section.me+section.info+section.photo+footer -->
+  <div id="wrap">
+    <header>
+      <div class="menu">
+        <ul>
+          <li><a href="#">home</a></li>
+          <li><a href="#">research</a></li>
+          <li><a href="#">personal</a></li>
+          <li><a href="#">miscellaneous</a></li>
+        </ul>
+      </div>
+    </header>
+    <section class="profile">
+      <div class="item">
+        <img src="images/main_image.png" alt="my image">
+      </div>
+      
+      <div class="item">
+        <ul>
+          <li>
+            Daeseok Lee
+          </li>
+          <li>
+            email: dsleemaths(att)gmail(dott)com
+          </li>
+          <li>
+            current affiliation: master's degree, Department of Mathematical Sciences, KAIST
+          </li>
+        </ul>
+      </div>
+    </section>
+    <footer>
+      abc
+    </footer>
+  </div>
+</body>
+
+</html>
