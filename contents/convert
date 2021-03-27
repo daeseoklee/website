@@ -1,0 +1,22 @@
+#!/bin/python3
+
+from bs4 import BeautifulSoup as bs
+
+
+htmls=["content_personal.html","content_research.html","content_miscellaneous.html"]
+
+def convert_newtab():
+  for html in htmls:
+    with open(html,'r') as f:
+      text=f.read()
+      soup=bs(text,features='lxml')
+      a_list=soup.find_all('a')
+      for a in a_list:
+        a['target']='_blank'
+      converted=str(soup)
+    with open(html,'w') as f:
+      f.write(converted)
+
+if __name__=='__main__':
+  convert_newtab()
+
