@@ -7,13 +7,16 @@
 ![pixelworld1](images/pixelworld1.resized.png)
 ![pixelworld2](images/pixelworld2.resized.png)
 A virtual ecosystem that (meant to) includes animals, plants, intelligence, and evolution. ([pixelworld](https://github.com/daeseoklee/pixelworld))
-A technical specification of the ecosystem can be found here.([here](https://github.com/daeseoklee/pixelworld/blob/master/_docs/pixelworld.pdf)) The prototype was developed in golang. Unfortunately, the intelligence part seemed not to work as intended. 
+A technical specification of the ecosystem (written in Korean) can be found here.([here](https://github.com/daeseoklee/pixelworld/blob/master/_docs/pixelworld.pdf)) The prototype was developed in golang. Unfortunately, the intelligence part seemed not to work as intended. 
 
 ##### Todo
-* If anyone is interested in this kind of thing, I would be happy if you build on top of my design, since I spent a good amount of effort on it.
+* Currently there's no plan. 
 
 #### miniworld
-A simplified and modified version of *pixelworld*, written in python and cython.([miniworld](https://github.com/daeseoklee/miniworld)) Here's a quantitative quasi-scientific argument that the intelligence part did work as intended.([here](https://github.com/daeseoklee/miniworld/blob/master/docs/draft.pdf))
+A simplified and modified version of *pixelworld*, written in python and cython.([miniworld](https://github.com/daeseoklee/miniworld)) Here's an experiment-based quasi-scientific argument that the intelligence part did work as intended. ([here](https://github.com/daeseoklee/miniworld/blob/master/docs/draft.pdf))
+
+##### Todo
+* I see the article is terribly written, so I'm willing to edit it when anyone let me know they're interested.
 
 
 #### hexago 
