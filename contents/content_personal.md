@@ -1,7 +1,7 @@
 ### Hobbies 
 <hr/>
 
-#### The game of Go 
+#### The Game of Go 
 ![An excerpt from a famous play between Cho Hun-Hyun and Nie Weiping](images/go.resized.png)
 Go is probably the best board game you could ever think of, not that I know much about other board games. This is what I like about it: 
 * At every point of play, it requires you to think in many ways: extensive local *readings*, value judgement on both local and global level, strategic design of the future story of the play, and last but not least, some lowkey psychological warfare. 
